@@ -1,35 +1,38 @@
-# Hi, I'm Aryan 👋
+![Aryan Maheshwari. Madison, Wisconsin.](./assets/dispatch.svg)
 
-Computer Science (Honors) & Data Science student at the **University of Wisconsin–Madison**, minoring in Entrepreneurship.
-I build AI-powered products end to end — from ML models and data pipelines to the full-stack apps people actually use.
+I’m Aryan, a computer science and data science student at UW–Madison. I’ve built a 3D ambulance dispatch simulator, a mobile training and nutrition coach, and firmware for a wind-tunnel calibration rig.
 
-- 🔭 Currently building **TAM**, an AI platform that automates financial due diligence for PE and M&A analysts
-- 🧠 Interested in applied ML, LLM agents, and fintech
-- 🏆 Hackathon builder — TAM started at CheeseHacks 2026
-- 📫 Reach me at [ary.maheshwari24@gmail.com](mailto:ary.maheshwari24@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/arymaheshwari)
+[Explore my interactive portfolio](https://arymaheshwari.com/) · [LinkedIn](https://www.linkedin.com/in/arymaheshwari) · [Email](mailto:ary.maheshwari24@gmail.com)
 
-## 🚀 Featured projects
+## 01 / emergencyMadison
 
-| Project | What it is | Built with |
-| --- | --- | --- |
-| [**TAM — Transaction Analysis Machine**](https://github.com/arymaheshwari/cheesehacks2026) | AI platform that turns weeks of financial due-diligence work into minutes: document classification, Isolation Forest anomaly detection, and generated reports | Python, Next.js, scikit-learn, ChromaDB, Hugging Face |
-| [**InterviewAI**](https://github.com/arymaheshwari/interviewai) · [live](https://interviewai-bay.vercel.app) | AI-powered interview practice app | JavaScript, Python |
-| [**Traffic Sign Detection**](https://github.com/arymaheshwari/Traffic-Signs-Detection) | Real-time traffic sign recognition from a webcam feed using a fine-tuned MobileNetV2 | Python, TensorFlow, OpenCV |
-| [**Predicate Partition Tree**](https://github.com/arymaheshwari/Predicate-Partition-Tree) | A tree data structure designed to speed up predicate-based search | Java |
-| [**SHIPWizard**](https://github.com/arymaheshwari/SHIPWizard) | Tool for optimizing shipping logistics | Python, JavaScript |
-| [**Fetch Rewards App**](https://github.com/arymaheshwari/fetch-rewards-app) | Android app that fetches, groups, and displays item data | Kotlin |
+**Hackathon winner · C3 Isthmus**
 
-## 🛠️ Tech I work with
+**What happens to an ambulance route when John Nolen Drive floods right after a Badgers game?**
 
-**Languages:** Python · TypeScript · JavaScript · Java · Kotlin · C/C++ · R · SQL
-**Web & mobile:** React · Next.js · React Native · Node.js · FastAPI · Flask
-**AI / ML:** PyTorch · TensorFlow · scikit-learn · Hugging Face · LangChain · CrewAI · Ollama
-**Data:** PostgreSQL · MySQL · MongoDB · ChromaDB
-**Cloud & tools:** AWS · Firebase · Vercel · Docker · Git · n8n
+Drop an incident on a 3D map of Madison, switch from normal traffic to the post-game flood scenario, and ride along as the simulator recalculates the trip. The routing engine searches both legs of the trip, from the responding station to the incident and from the incident to the fastest reachable emergency department.
 
-## 📊 GitHub stats
+<details>
+<summary>How the routing works</summary>
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=arymaheshwari&show_icons=true&hide_border=true&count_private=true" alt="Aryan's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arymaheshwari&layout=compact&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
+OpenStreetMap data supplies the road network. Scenario overlays close or slow individual segments, and Dijkstra searches compute the response and transport legs. An impact analysis compares the scenario with the baseline across 2,436 modeled intersections. MapLibre GL renders the routes and plays back the dispatch.
+
+</details>
+
+[Explore the implementation](https://github.com/arymaheshwari/emergencyMadison/tree/workspace/7be4fcdc-0f45-4258-aa15-a5c62266cd65)
+
+## 02 / Your AI Health Coach & Trainer
+
+**Mobile app · Expo, React Native, Supabase**
+
+Generate a running or gym program, follow it with a workout timer, and log meals by scanning a barcode, photographing a nutrition label, or taking a picture of the meal. Workout history and nutrition goals live in the same app.
+
+[View the source](https://github.com/arymaheshwari/Trainy)
+
+## 03 / Five-hole probe calibration rig
+
+**Embedded systems · ESP32, Arduino, Python**
+
+An Arduino-controlled gimbal sweeps through pitch and yaw angles while an ESP32 streams differential pressure readings. A Python logger coordinates the sweep and writes raw readings and per-angle summaries to CSV for calibration.
+
+[Inspect the firmware and logger](https://github.com/arymaheshwari/pitot_tube_code)
