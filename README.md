@@ -36,6 +36,19 @@ Set a weekly schedule, fitness goals, and recent running times to get a training
 
 **[Browse the source ↗](https://github.com/arymaheshwari/Trainy)**
 
+**First Up · Interactive Classroom Game**
+
+Nicholas DiCristo and I built a live quiz game for classrooms. The host runs it on the projector while students join from their phones to answer questions, make numeric guesses, or drop pins on an image. Scores and answer distributions update live.
+
+<details>
+<summary><b>See a Pin It round</b></summary>
+
+![First Up’s host screen showing the results of a Pin It round.](https://raw.githubusercontent.com/arymaheshwari/First-Up-Interactive-Classroom-App/main/docs/ui/after/dark/host-results-pin.png)
+
+</details>
+
+**[Explore First Up ↗](https://github.com/arymaheshwari/First-Up-Interactive-Classroom-App)**
+
 ## I like fast carsss. I code fast carsss.
 
 ![An illustrated Formula SAE race car speeds through a red Wisconsin Racing panel.](./assets/wisconsin-racing.gif)
