@@ -38,7 +38,9 @@ Set a weekly schedule, fitness goals, and recent running times to get a training
 
 **First Up · Interactive Classroom Game**
 
-Nicholas DiCristo and I built a live quiz game for classrooms. The host runs it on the projector while students join from their phones to answer questions, make numeric guesses, or drop pins on an image. Scores and answer distributions update live.
+![First Up comic banner with a classroom projector, a pin target, and phone controllers.](./assets/first-up-banner.webp)
+
+I built a live quiz game for classrooms. The host runs it on the projector while students join from their phones to answer questions, make numeric guesses, or drop pins on an image. Scores and answer distributions update live.
 
 <details>
 <summary><b>See a Pin It round</b></summary>
