@@ -15,6 +15,8 @@ What happens when John Nolen Drive floods right after a Badgers game? We built a
 
 The simulator closes affected road segments, adds game-day congestion, and recalculates both legs of the trip: station to incident, then incident to hospital. It compares those results with normal traffic across 2,436 modeled intersections.
 
+![The emergencyMadison control room in post-game flood mode, showing road conditions and both legs of an ambulance route on a 3D map.](./assets/emergency-madison-flood-mode.png)
+
 </details>
 
 **[Explore the implementation ↗](https://github.com/arymaheshwari/emergencyMadison/tree/workspace/7be4fcdc-0f45-4258-aa15-a5c62266cd65)**
